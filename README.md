@@ -1,6 +1,6 @@
 # Ansible role for StrongSwan
 
-[![Build Status](https://travis-ci.org/torian/ansible-role-strongswan.svg)](https://travis-ci.org/torian/ansible-role-strongswan)
+[![Build Status](https://travis-ci.com/Smart-Flows/ansible-role-strongswan.svg?branch=master)](https://travis-ci.com/Smart-Flows/ansible-role-strongswan)
 
 An Ansible Role that installs and configures StrongSwan on Red Hat/CentOS or Debian/Ubuntu.
 
