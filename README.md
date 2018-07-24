@@ -26,8 +26,6 @@ The `ipsec.conf` file is configured through the following vars (and their defaul
 ```
 strongswan_config_setup:
   uniqueids: yes
-  charonstart: yes
-  charondebug: ''
 
 strongswan_conn_default: {}
 
@@ -87,9 +85,9 @@ strongswan_secrets:
     credentials: cert.pem
 ```
 
-The double quotes inside the simple ones is meant to escape any special chars. 
+The double quotes inside the simple ones is meant to escape any special chars.
 
-`RSA` private keys (or any secret type that requires a key file) might be specified 
+`RSA` private keys (or any secret type that requires a key file) might be specified
 through `strongswan_private_keys` (TODO):
 
 ```

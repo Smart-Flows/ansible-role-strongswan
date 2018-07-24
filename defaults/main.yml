@@ -6,8 +6,6 @@ strongswan_secrets_file: "{{strongswan_prefix}}/ipsec.secrets"
 
 strongswan_config_setup:
   uniqueids: 'yes'
-  charonstart: 'yes'
-  charondebug: ''
 
 # strongswan_conn_default: Defaults for connections
 #  This will populate the default conn (%default)
@@ -24,7 +22,7 @@ strongswan_conn_default: {}
 # strongswan_conns: Dict to specify connections
 #  Each key represents the name of a connection. The subelemets that the
 #  connection has is any valid directive for a connection
-#  
+#
 #   strongswan_conns:
 #     conn1:
 #       right: 2.3.4.5
